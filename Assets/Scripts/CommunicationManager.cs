@@ -37,7 +37,7 @@ public class CommunicationManager : MonoBehaviour {
 //			Connect (ConfigManager.SelectedDevice);
 	}
 
-	public bool Connect (string device, int baudrate = 57600)
+	public bool Connect (string device, int baudrate = 9800)
 	{
 		Debug.Log ("[CommunicationManager:Connect] Connect to device: " + device);
 		if (IsConnected ())

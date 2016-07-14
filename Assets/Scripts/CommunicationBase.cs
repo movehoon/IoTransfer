@@ -2,7 +2,7 @@
 using System.Collections;
 
 public abstract class CommunicationBase {
-	public abstract bool Connect (string device, int baudrate = 115200);
+	public abstract bool Connect (string device, int baudrate = 9800);
 	public abstract bool Disconnect ();
 	public abstract bool IsConnected ();
 	public abstract string[] GetDeviceList ();
